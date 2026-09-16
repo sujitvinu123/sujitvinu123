@@ -221,12 +221,11 @@ Engineering Tools
     alt="GitHub Statistics"
   />
   <img
-    src="./profile/languages.svg"
+    src="./profile/top-langs.svg"
     width="380"
     alt="Top Programming Languages"
   />
 </p>
-
 # 🐍 Contribution Intelligence
 
 <p align="center">
