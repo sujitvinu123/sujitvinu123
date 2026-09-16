@@ -7,9 +7,8 @@
 </p>
 
 <p align="center">
-  <strong>AI / ML • Full Stack • Real-Time Systems • Computer Vision • Digital Twins</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2500&pause=500&color=58A6FF&center=true&vCenter=true&width=900&lines=AI+ENGINEERING+%E2%80%A2+FULL+STACK+%E2%80%A2+REAL-TIME+SYSTEMS;COMPUTER+VISION+%E2%80%A2+DIGITAL+TWINS+%E2%80%A2+3D+SYSTEMS;BUILDING+%E2%80%A2+LEARNING+%E2%80%A2+EXPERIMENTING+%E2%80%A2+SHIPPING" />
 </p>
-
 <p align="center">
   <a href="https://github.com/sujitvinu123">
     <img src="https://img.shields.io/badge/GitHub-sujitvinu123-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
