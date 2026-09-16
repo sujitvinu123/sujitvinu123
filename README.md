@@ -22,19 +22,17 @@
   <img src="https://komarev.com/ghpvc/?username=sujitvinu123&style=flat-square&color=blueviolet" alt="Profile views"/>
 </p>
 
-👋 Hi, I'm Sujitvinu R R
+<!-- ================= SYSTEM PROFILE ================= -->
 
-B.Tech Information Technology • Builder • AI/ML Explorer
+<h2>⚡ SYSTEM PROFILE</h2>
 
-I design and build end-to-end software systems that connect intelligent models,
-real-time data, backend services and modern interfaces.
-
-My interests sit at the intersection of:
-
-Artificial Intelligence · Full Stack Engineering · Computer Vision
-· Real-Time Systems · 3D/WebGL · Digital Twins
-
-Build systems. Solve problems. Learn deeply. Ship continuously.
+<p align="center">
+  <img
+    src="./assets/terminal-profile.svg"
+    width="100%"
+    alt="Sujitvinu R R - Animated Developer Profile"
+  />
+</p>
 
 ⚡ What I'm Building
 
