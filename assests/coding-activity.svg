@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 500"
+     viewBox="0 0 1200 430"
      width="1200"
-     height="500"
+     height="430"
      role="img"
-     aria-label="Sujitvinu R R coding activity dashboard">
+     aria-label="Sujitvinu coding activity dashboard">
 
   <defs>
 
@@ -16,598 +16,456 @@
 
     <!-- Cards -->
     <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#131a2c"/>
-      <stop offset="100%" stop-color="#0d1322"/>
+      <stop offset="0%" stop-color="#121a2b"/>
+      <stop offset="100%" stop-color="#0c1321"/>
     </linearGradient>
 
-    <!-- Purple graph -->
+    <!-- Graph fill -->
     <linearGradient id="graphFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Green graph -->
-    <linearGradient id="greenFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4ade80" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#4ade80" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Glow -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
   </defs>
 
 
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
   <!-- BACKGROUND -->
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
 
-  <rect width="1200" height="500" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="18" fill="url(#bg)"/>
 
-  <!-- subtle grid -->
-  <g opacity="0.08" stroke="#94a3b8" stroke-width="1">
-    <path d="M40 70 H1160"/>
-    <path d="M40 130 H1160"/>
-    <path d="M40 190 H1160"/>
-    <path d="M40 250 H1160"/>
-    <path d="M40 310 H1160"/>
-    <path d="M40 370 H1160"/>
-    <path d="M40 430 H1160"/>
-  </g>
+  <!-- subtle background glow -->
+  <circle cx="1000" cy="80" r="160"
+          fill="#2563eb"
+          opacity=".06"
+          filter="url(#softGlow)"/>
+
+  <circle cx="180" cy="360" r="140"
+          fill="#7c3aed"
+          opacity=".04"
+          filter="url(#softGlow)"/>
 
 
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
   <!-- HEADER -->
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
 
   <g font-family="'JetBrains Mono','Fira Code',monospace">
 
-    <!-- live indicator -->
-    <circle cx="55" cy="38" r="4" fill="#4ade80">
+    <!-- LIVE indicator -->
+    <circle cx="48" cy="48" r="4" fill="#3fb950">
       <animate
         attributeName="opacity"
-        values="0.3;1;0.3"
-        dur="1.5s"
+        values=".3;1;.3"
+        dur="1.4s"
         repeatCount="indefinite"/>
     </circle>
 
-    <text x="70" y="42"
-          fill="#4ade80"
+    <text x="60" y="52"
+          fill="#3fb950"
           font-size="11"
+          font-weight="bold"
           letter-spacing="4">
-      LIVE · CODING TELEMETRY
+      LIVE · CODING ACTIVITY
     </text>
 
-    <text x="1145" y="42"
+    <!-- right header -->
+    <text x="1150" y="52"
           text-anchor="end"
           fill="#64748b"
           font-size="10"
           letter-spacing="3">
-      SUJITVINU.DEV
+      SUJITVINU123 · 2026
     </text>
 
   </g>
 
 
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
   <!-- TITLE -->
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
 
-  <text x="55"
-        y="86"
+  <text x="48" y="92"
         fill="#f1f5f9"
-        font-family="Inter,system-ui,sans-serif"
-        font-size="29"
+        font-family="'Inter',system-ui,sans-serif"
+        font-size="27"
         font-weight="700">
     Coding Activity
   </text>
 
-  <text x="55"
-        y="108"
+  <text x="48" y="116"
         fill="#64748b"
         font-family="'JetBrains Mono',monospace"
-        font-size="10"
+        font-size="11"
         letter-spacing="2">
-    BUILD · SOLVE · EXPERIMENT · SHIP
+    BUILD · DEBUG · SOLVE · SHIP
   </text>
 
 
-  <!-- ================================================= -->
-  <!-- KPI CARD 1 -->
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
+  <!-- STAT CARDS -->
+  <!-- ===================================================== -->
 
-  <g transform="translate(55,130)">
-
-    <rect width="250"
-          height="112"
-          rx="12"
-          fill="url(#card)"
-          stroke="#202a43"/>
-
-    <text x="18" y="27"
-          fill="#64748b"
-          font-family="'JetBrains Mono',monospace"
-          font-size="9"
-          letter-spacing="3">
-      CONTRIBUTIONS
-    </text>
-
-    <text x="18" y="69"
-          fill="#f8fafc"
-          font-family="Inter,system-ui,sans-serif"
-          font-size="34"
-          font-weight="700">
-      240
-    </text>
-
-    <text x="18" y="91"
-          fill="#4ade80"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      MAY 2024 → PRESENT
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- KPI CARD 2 -->
-  <!-- ================================================= -->
-
-  <g transform="translate(325,130)">
+  <!-- COMMITS -->
+  <g transform="translate(48,140)">
 
     <rect width="250"
-          height="112"
+          height="92"
           rx="12"
           fill="url(#card)"
-          stroke="#202a43"/>
+          stroke="#1d2940"/>
 
-    <text x="18" y="27"
+    <text x="18" y="25"
           fill="#64748b"
           font-family="'JetBrains Mono',monospace"
           font-size="9"
           letter-spacing="3">
-      CURRENT STREAK
-    </text>
-
-    <text x="18" y="69"
-          fill="#f8fafc"
-          font-family="Inter,system-ui,sans-serif"
-          font-size="34"
-          font-weight="700">
-      1
-      <tspan font-size="18"
-             fill="#a78bfa"> day</tspan>
-    </text>
-
-    <text x="18" y="91"
-          fill="#a78bfa"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      KEEP THE CHAIN ALIVE
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- KPI CARD 3 -->
-  <!-- ================================================= -->
-
-  <g transform="translate(595,130)">
-
-    <rect width="250"
-          height="112"
-          rx="12"
-          fill="url(#card)"
-          stroke="#202a43"/>
-
-    <text x="18" y="27"
-          fill="#64748b"
-          font-family="'JetBrains Mono',monospace"
-          font-size="9"
-          letter-spacing="3">
-      LONGEST STREAK
-    </text>
-
-    <text x="18" y="69"
-          fill="#f8fafc"
-          font-family="Inter,system-ui,sans-serif"
-          font-size="34"
-          font-weight="700">
-      6
-      <tspan font-size="18"
-             fill="#67e8f9"> days</tspan>
-    </text>
-
-    <text x="18" y="91"
-          fill="#67e8f9"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      AUG 29 → SEP 3
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- KPI CARD 4 -->
-  <!-- ================================================= -->
-
-  <g transform="translate(865,130)">
-
-    <rect width="280"
-          height="112"
-          rx="12"
-          fill="url(#card)"
-          stroke="#202a43"/>
-
-    <text x="18" y="27"
-          fill="#64748b"
-          font-family="'JetBrains Mono',monospace"
-          font-size="9"
-          letter-spacing="3">
-      ENGINEERING FOCUS
+      COMMITS
     </text>
 
     <text x="18" y="61"
           fill="#f8fafc"
-          font-family="'JetBrains Mono',monospace"
-          font-size="13">
-      JAVA · DSA · AI/ML
+          font-family="'Inter',system-ui,sans-serif"
+          font-size="30"
+          font-weight="700">
+      240
     </text>
 
-    <text x="18" y="83"
+    <text x="90" y="61"
+          fill="#3fb950"
+          font-family="'JetBrains Mono',monospace"
+          font-size="10">
+      total
+    </text>
+
+    <text x="18" y="79"
+          fill="#3fb950"
+          font-family="'JetBrains Mono',monospace"
+          font-size="10">
+      ▲ active contributor
+    </text>
+
+  </g>
+
+
+  <!-- PROBLEMS -->
+  <g transform="translate(316,140)">
+
+    <rect width="250"
+          height="92"
+          rx="12"
+          fill="url(#card)"
+          stroke="#1d2940"/>
+
+    <text x="18" y="25"
+          fill="#64748b"
+          font-family="'JetBrains Mono',monospace"
+          font-size="9"
+          letter-spacing="3">
+      PROBLEMS SOLVED
+    </text>
+
+    <text x="18" y="61"
+          fill="#f8fafc"
+          font-family="'Inter',system-ui,sans-serif"
+          font-size="30"
+          font-weight="700">
+      100+
+    </text>
+
+    <text x="18" y="79"
           fill="#a78bfa"
           font-family="'JetBrains Mono',monospace"
-          font-size="11">
-      FULL STACK · CV · 3D
+          font-size="10">
+      DSA · LEETCODE
     </text>
 
-    <circle cx="245" cy="82" r="5"
-            fill="#4ade80"
+  </g>
+
+
+  <!-- PROJECTS -->
+  <g transform="translate(584,140)">
+
+    <rect width="250"
+          height="92"
+          rx="12"
+          fill="url(#card)"
+          stroke="#1d2940"/>
+
+    <text x="18" y="25"
+          fill="#64748b"
+          font-family="'JetBrains Mono',monospace"
+          font-size="9"
+          letter-spacing="3">
+      PROJECTS
+    </text>
+
+    <text x="18" y="61"
+          fill="#f8fafc"
+          font-family="'Inter',system-ui,sans-serif"
+          font-size="30"
+          font-weight="700">
+      05+
+    </text>
+
+    <text x="18" y="79"
+          fill="#58a6ff"
+          font-family="'JetBrains Mono',monospace"
+          font-size="10">
+      AI · FULL STACK · SYSTEMS
+    </text>
+
+  </g>
+
+
+  <!-- STREAK -->
+  <g transform="translate(852,140)">
+
+    <rect width="300"
+          height="92"
+          rx="12"
+          fill="url(#card)"
+          stroke="#1d2940"/>
+
+    <text x="18" y="25"
+          fill="#64748b"
+          font-family="'JetBrains Mono',monospace"
+          font-size="9"
+          letter-spacing="3">
+      CURRENT MODE
+    </text>
+
+    <text x="18" y="61"
+          fill="#f8fafc"
+          font-family="'Inter',system-ui,sans-serif"
+          font-size="27"
+          font-weight="700">
+      BUILD MODE
+    </text>
+
+    <circle cx="270" cy="48" r="7"
+            fill="#3fb950"
             filter="url(#glow)">
       <animate
         attributeName="r"
-        values="4;7;4"
-        dur="1.6s"
+        values="6;9;6"
+        dur="1.5s"
         repeatCount="indefinite"/>
     </circle>
+
+    <text x="18" y="79"
+          fill="#3fb950"
+          font-family="'JetBrains Mono',monospace"
+          font-size="10">
+      ● SYSTEM ACTIVE
+    </text>
 
   </g>
 
 
-  <!-- ================================================= -->
-  <!-- CONTRIBUTION VELOCITY -->
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
+  <!-- ACTIVITY GRAPH -->
+  <!-- ===================================================== -->
 
-  <g transform="translate(55,265)">
+  <g transform="translate(48,252)">
 
-    <rect width="700"
-          height="175"
+    <rect width="1104"
+          height="130"
           rx="14"
           fill="url(#card)"
-          stroke="#202a43"/>
+          stroke="#1d2940"/>
 
-    <text x="20" y="28"
+    <!-- graph title -->
+
+    <text x="20" y="25"
           fill="#64748b"
           font-family="'JetBrains Mono',monospace"
           font-size="9"
           letter-spacing="3">
-      CONTRIBUTION VELOCITY · 90 DAYS
+      CONTRIBUTION VELOCITY · RECENT ACTIVITY
     </text>
 
 
-    <!-- graph grid -->
-    <g stroke="#334155"
-       stroke-width="0.6"
-       opacity="0.45">
+    <!-- horizontal guides -->
 
-      <line x1="20" y1="55" x2="680" y2="55"/>
-      <line x1="20" y1="85" x2="680" y2="85"/>
-      <line x1="20" y1="115" x2="680" y2="115"/>
-      <line x1="20" y1="145" x2="680" y2="145"/>
+    <line x1="20" y1="48"
+          x2="1084" y2="48"
+          stroke="#182236"
+          stroke-width="1"/>
+
+    <line x1="20" y1="76"
+          x2="1084" y2="76"
+          stroke="#182236"
+          stroke-width="1"/>
+
+    <line x1="20" y1="104"
+          x2="1084" y2="104"
+          stroke="#182236"
+          stroke-width="1"/>
+
+
+    <!-- graph area -->
+
+    <polygon
+      points="
+      20,103
+      65,95
+      110,99
+      155,82
+      200,89
+      245,72
+      290,79
+      335,61
+      380,69
+      425,54
+      470,64
+      515,47
+      560,57
+      605,43
+      650,52
+      695,36
+      740,48
+      785,39
+      830,55
+      875,44
+      920,58
+      965,42
+      1010,51
+      1055,34
+      1084,40
+      1084,110
+      20,110"
+      fill="url(#graphFill)"
+    />
+
+
+    <!-- graph line -->
+
+    <polyline
+      points="
+      20,103
+      65,95
+      110,99
+      155,82
+      200,89
+      245,72
+      290,79
+      335,61
+      380,69
+      425,54
+      470,64
+      515,47
+      560,57
+      605,43
+      650,52
+      695,36
+      740,48
+      785,39
+      830,55
+      875,44
+      920,58
+      965,42
+      1010,51
+      1055,34
+      1084,40"
+      fill="none"
+      stroke="#58a6ff"
+      stroke-width="2"
+      filter="url(#glow)"
+    />
+
+
+    <!-- animated scanning line -->
+
+    <line x1="20" y1="110"
+          x2="20" y2="35"
+          stroke="#58a6ff"
+          stroke-width="1"
+          opacity=".5">
+
+      <animate
+        attributeName="x1"
+        values="20;1084;20"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="x2"
+        values="20;1084;20"
+        dur="7s"
+        repeatCount="indefinite"/>
+
+    </line>
+
+
+    <!-- live endpoint -->
+
+    <circle cx="1084" cy="40"
+            r="4"
+            fill="#fef3c7"
+            filter="url(#glow)">
+
+      <animate
+        attributeName="r"
+        values="4;7;4"
+        dur="1.4s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- date labels -->
+
+    <g fill="#475569"
+       font-family="'JetBrains Mono',monospace"
+       font-size="8">
+
+      <text x="20" y="123">MAY</text>
+      <text x="260" y="123">JUN</text>
+      <text x="500" y="123">JUL</text>
+      <text x="740" y="123">AUG</text>
+      <text x="1000" y="123">SEP</text>
 
     </g>
 
-
-    <!-- graph fill -->
-    <polygon
-      points="
-      20,137
-      50,130
-      80,134
-      110,118
-      140,125
-      170,108
-      200,116
-      230,101
-      260,111
-      290,91
-      320,103
-      350,84
-      380,95
-      410,77
-      440,88
-      470,68
-      500,81
-      530,62
-      560,76
-      590,58
-      620,72
-      650,55
-      680,64
-      680,155
-      20,155"
-      fill="url(#graphFill)"/>
-
-
-    <!-- animated line -->
-    <polyline
-      points="
-      20,137
-      50,130
-      80,134
-      110,118
-      140,125
-      170,108
-      200,116
-      230,101
-      260,111
-      290,91
-      320,103
-      350,84
-      380,95
-      410,77
-      440,88
-      470,68
-      500,81
-      530,62
-      560,76
-      590,58
-      620,72
-      650,55
-      680,64"
-      fill="none"
-      stroke="#a78bfa"
-      stroke-width="2"/>
-
-
-    <!-- moving scan point -->
-    <circle cx="680"
-            cy="64"
-            r="5"
-            fill="#fef3c7">
-
-      <animate
-        attributeName="r"
-        values="4;8;4"
-        dur="1.5s"
-        repeatCount="indefinite"/>
-
-    </circle>
-
-    <circle cx="680"
-            cy="64"
-            r="12"
-            fill="none"
-            stroke="#a78bfa"
-            opacity="0.5">
-
-      <animate
-        attributeName="r"
-        values="8;18;8"
-        dur="1.5s"
-        repeatCount="indefinite"/>
-
-      <animate
-        attributeName="opacity"
-        values="0.6;0;0.6"
-        dur="1.5s"
-        repeatCount="indefinite"/>
-
-    </circle>
-
-
-    <text x="680"
-          y="164"
-          text-anchor="end"
-          fill="#a78bfa"
-          font-family="'JetBrains Mono',monospace"
-          font-size="9">
-      ACTIVITY SIGNAL ●
-    </text>
-
   </g>
 
 
-  <!-- ================================================= -->
-  <!-- LANGUAGE / TECHNOLOGY PANEL -->
-  <!-- ================================================= -->
+  <!-- ===================================================== -->
+  <!-- FOOTER -->
+  <!-- ===================================================== -->
 
-  <g transform="translate(775,265)">
+  <g font-family="'JetBrains Mono',monospace"
+     font-size="10">
 
-    <rect width="370"
-          height="175"
-          rx="14"
-          fill="url(#card)"
-          stroke="#202a43"/>
-
-    <text x="20" y="28"
-          fill="#64748b"
-          font-family="'JetBrains Mono',monospace"
-          font-size="9"
-          letter-spacing="3">
-      ENGINEERING STACK
-    </text>
-
-
-    <!-- Java -->
-    <text x="20" y="57"
-          fill="#cbd5e1"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      JAVA
-    </text>
-
-    <rect x="90" y="48"
-          width="220"
-          height="9"
-          rx="4"
-          fill="#1e293b"/>
-
-    <rect x="90" y="48"
-          width="175"
-          height="9"
-          rx="4"
-          fill="#f97316"/>
-
-
-    <!-- Python -->
-    <text x="20" y="82"
-          fill="#cbd5e1"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      PYTHON
-    </text>
-
-    <rect x="90" y="73"
-          width="220"
-          height="9"
-          rx="4"
-          fill="#1e293b"/>
-
-    <rect x="90" y="73"
-          width="150"
-          height="9"
-          rx="4"
-          fill="#4ade80"/>
-
-
-    <!-- JavaScript -->
-    <text x="20" y="107"
-          fill="#cbd5e1"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      JS/TS
-    </text>
-
-    <rect x="90" y="98"
-          width="220"
-          height="9"
-          rx="4"
-          fill="#1e293b"/>
-
-    <rect x="90" y="98"
-          width="130"
-          height="9"
-          rx="4"
-          fill="#facc15"/>
-
-
-    <!-- C++ -->
-    <text x="20" y="132"
-          fill="#cbd5e1"
-          font-family="'JetBrains Mono',monospace"
-          font-size="10">
-      C/C++
-    </text>
-
-    <rect x="90" y="123"
-          width="220"
-          height="9"
-          rx="4"
-          fill="#1e293b"/>
-
-    <rect x="90" y="123"
-          width="105"
-          height="9"
-          rx="4"
-          fill="#60a5fa"/>
-
-
-    <text x="20"
-          y="157"
-          fill="#64748b"
-          font-family="'JetBrains Mono',monospace"
-          font-size="9">
-      DSA · AI/ML · FULL STACK · CV · WEBGL
-    </text>
-
-  </g>
-
-
-  <!-- ================================================= -->
-  <!-- FOOTER TERMINAL -->
-  <!-- ================================================= -->
-
-  <g font-family="'JetBrains Mono',monospace">
-
-    <text x="55"
-          y="472"
-          fill="#a78bfa"
-          font-size="11">
-      sujitvinu@dev
-    </text>
-
-    <text x="150"
-          y="472"
-          fill="#64748b"
-          font-size="11">
-      :
-    </text>
-
-    <text x="158"
-          y="472"
-          fill="#4ade80"
-          font-size="11">
-      ~
-    </text>
-
-    <text x="168"
-          y="472"
-          fill="#64748b"
-          font-size="11">
-      $
-    </text>
-
-    <text x="180"
-          y="472"
-          fill="#cbd5e1"
-          font-size="11">
-      ./keep_building
-    </text>
-
-    <!-- cursor -->
-    <rect x="280"
-          y="460"
-          width="7"
-          height="14"
-          fill="#4ade80">
-
-      <animate
-        attributeName="opacity"
-        values="1;0;1"
-        dur="1s"
-        repeatCount="indefinite"/>
-
-    </rect>
-
-    <text x="1145"
-          y="472"
-          text-anchor="end"
+    <text x="48" y="410"
           fill="#475569"
-          font-size="9"
           letter-spacing="2">
-      SYSTEM ONLINE
+      SUJITVINU123 · JAVA · PYTHON · JAVASCRIPT · C++ · SQL
+    </text>
+
+    <text x="1152" y="410"
+          text-anchor="end"
+          fill="#3fb950"
+          letter-spacing="2">
+      ● CODING
     </text>
 
   </g>
+
 
 </svg>
