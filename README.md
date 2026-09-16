@@ -236,12 +236,12 @@ Engineering Tools
       srcset="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/output/github-snake.svg"
     />
     <img
-      alt="GitHub contribution snake"
       src="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/output/github-snake.svg"
+      alt="GitHub contribution snake"
+      width="100%"
     />
   </picture>
 </p>
-
 💻 LeetCode Intelligence
 
 <p align="center">
