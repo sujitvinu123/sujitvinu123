@@ -216,14 +216,14 @@ Engineering Tools
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark"
-    height="180"
+    src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&theme=github_dark&hide_border=true"
     alt="GitHub Statistics"
+    width="48%"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&hide_border=true&langs_count=8&theme=github_dark"
-    height="180"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&theme=github_dark&hide_border=true"
     alt="Top Programming Languages"
+    width="48%"
   />
 </p>
 
@@ -231,13 +231,7 @@ Engineering Tools
   <img
     src="https://streak-stats.demolab.com?user=sujitvinu123&theme=github-dark-blue&hide_border=true"
     alt="GitHub Contribution Streak"
-  />
-</p>
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=sujitvinu123&theme=github-compact&hide_border=true"
-    alt="GitHub Activity Graph"
-    width="100%"
+    width="70%"
   />
 </p>
 # 🐍 Contribution Intelligence
