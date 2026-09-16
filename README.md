@@ -259,15 +259,17 @@ Engineering Tools
   </a>
 
 </p>
-⌨️ Coding Activity
+<!-- ==================== CODING ACTIVITY ==================== -->
+
+<h2>⌨️ CODING ACTIVITY</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sujitvinu123&hide_border=true&area=true" alt="GitHub activity graph"/>
+  <img
+    src="./assets/coding-activity.svg"
+    width="100%"
+    alt="Sujitvinu R R - Coding Activity Dashboard"
+  />
 </p>
-
-<!--
-WakaTime integration can be added later if you want actual editor/coding-time data.
--->
 
 🎯 Current Mission
 
