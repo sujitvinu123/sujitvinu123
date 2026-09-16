@@ -229,15 +229,15 @@ Engineering Tools
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/sujitvinu123/YOUR-REPOSITORY/output/github-snake-dark.svg"
+      srcset="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/output/github-snake-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/sujitvinu123/YOUR-REPOSITORY/output/github-snake.svg"
+      srcset="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/output/github-snake.svg"
     />
     <img
       alt="GitHub contribution snake"
-      src="https://raw.githubusercontent.com/sujitvinu123/YOUR-REPOSITORY/output/github-snake.svg"
+      src="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/output/github-snake.svg"
     />
   </picture>
 </p>
