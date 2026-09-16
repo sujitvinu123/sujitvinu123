@@ -334,60 +334,6 @@ React • FastAPI • PostgreSQL • WebSockets
                            ▼
                     BUILD • TEST • SHIP
 
-🏆 Engineering Interests
-
-<p align="center">
-
-Artificial Intelligence  
-Machine Learning  
-Computer Vision
-
-Full Stack Development  
-Digital Twins  
-Real-Time Systems
-
-3D Web  
-Data Visualization  
-IoT
-
-</p>
-
-📈 Developer Journey
-
-2024 ───────────────► B.Tech IT
-                         │
-2025 ───────────────► Full Stack
-                         │
-                     AI / ML
-                         │
-                 Computer Vision
-                         │
-2026 ───────────────► Advanced DSA
-                         │
-                   Digital Twins
-                         │
-                  Real-Time Systems
-                         │
-                         ▼
-                    AI ENGINEERING
-
-🧪 Engineering Philosophy
-
-Don't just build a feature. Understand the system behind it.
-
-LEARN
-  ↓
-UNDERSTAND
-  ↓
-DESIGN
-  ↓
-BUILD
-  ↓
-TEST
-  ↓
-DEPLOY
-  ↓
-ITERATE
 
 📫 Connect
 
