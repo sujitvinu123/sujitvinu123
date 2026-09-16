@@ -1,16 +1,400 @@
-## Hi there 👋
+<!-- =========================================================
+     SUJITVINU R R — GitHub Profile README
+     ========================================================= -->
+
+<p align="center">
+  <img src="./sujitvinu-banner.svg" width="100%" alt="Sujitvinu R R — AI, Full Stack & Systems"/>
+</p>
+
+<p align="center">
+  <strong>AI / ML • Full Stack • Real-Time Systems • Computer Vision • Digital Twins</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sujitvinu123">
+    <img src="https://img.shields.io/badge/GitHub-sujitvinu123-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sujitvinu123&style=flat-square&color=blueviolet" alt="Profile views"/>
+</p>
+
+👋 Hi, I'm Sujitvinu R R
+
+B.Tech Information Technology • Builder • AI/ML Explorer
+
+I design and build end-to-end software systems that connect intelligent models,
+real-time data, backend services and modern interfaces.
+
+My interests sit at the intersection of:
+
+Artificial Intelligence · Full Stack Engineering · Computer Vision
+· Real-Time Systems · 3D/WebGL · Digital Twins
+
+Build systems. Solve problems. Learn deeply. Ship continuously.
+
+⚡ What I'm Building
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+🤖 AI Engineering
+
+Machine learning systems, computer vision and intelligent applications.
+
+</td>
+<td width="33%" align="center">
+
+🌐 Full Stack
+
+Modern frontend + scalable backend + databases + APIs.
+
+</td>
+<td width="33%" align="center">
+
+⚙️ Real-Time Systems
+
+Streaming telemetry, WebSockets, dashboards and live intelligence.
+
+</td>
+</tr>
+</table>
+
+🚀 Featured Engineering Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+✈️ AERO TWIN
+
+AI-Enabled Digital Twin
+
+A real-time digital twin platform for monitoring aero piston engine health,
+detecting anomalies and supporting mission reliability analysis.
+
+Engineering
+
+Python FastAPI React TypeScript Three.js WebSocket ML
+
+Architecture
+
+Telemetry → Processing → ML → Digital Twin → Visualization → Alerts
+
+</td>
+
+<td width="50%" valign="top">
+
+🏥 MEDCARE
+
+Medical AI Platform
+
+An AI-powered healthcare system combining computer vision, intelligent
+assistance and real-time communication workflows.
+
+Engineering
+
+Python FastAPI OpenCV MediaPipe React AI
+
+Focus
+
+Computer Vision → Analysis → AI Assistance → Communication
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+🕶️ SMARTSPECS
+
+Assistive Computer Vision
+
+A smart-glasses concept using computer vision and embedded intelligence
+to assist visually impaired users.
+
+Engineering
+
+Computer Vision AI IoT Embedded Systems
+
+Focus
+
+Perception → Understanding → Assistance
+
+</td>
+
+<td width="50%" valign="top">
+
+🌊 MARINA
+
+Water Intelligence Platform
+
+An intelligent monitoring concept combining IoT data, analytics,
+geospatial visualization and environmental intelligence.
+
+Engineering
+
+IoT AI Maps React Data Visualization
+
+Focus
+
+Sensors → Data → Analytics → Geospatial Intelligence
+
+</td>
+</tr>
+</table>
+
+🧠 Technical Arsenal
+
+Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,js,ts,sql,go" alt="Programming languages"/>
+</p>
+
+Frontend Engineering
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,threejs" alt="Frontend technologies"/>
+</p>
+
+Backend & Data
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,supabase" alt="Backend and databases"/>
+</p>
+
+AI / ML / Vision
+
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,opencv" alt="AI ML and computer vision"/>
+</p>
+
+Engineering Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode" alt="Engineering tools"/>
+</p>
+
+🏗️ How I Think About Systems
+
+                         ┌─────────────────────┐
+                         │       PROBLEM       │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │   SYSTEM DESIGN     │
+                         └──────────┬──────────┘
+                                    │
+                  ┌─────────────────┼─────────────────┐
+                  ▼                 ▼                 ▼
+             FRONTEND           BACKEND             AI/ML
+                  │                 │                 │
+                  └─────────────────┼─────────────────┘
+                                    ▼
+                         ┌─────────────────────┐
+                         │     DATA LAYER      │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │ REAL-TIME / EVENTS  │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │  INTELLIGENT UI     │
+                         └─────────────────────┘
+
+📊 GitHub Intelligence
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" height="180" alt="GitHub statistics"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&hide_border=true&langs_count=8" height="180" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sujitvinu123&hide_border=true" alt="GitHub contribution streak"/>
+</p>
+
+🐍 Contribution Intelligence
+
+<p align="center">
+  <img src="./assets/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake"/>
+</p>
 
 <!--
-**sujitvinu123/sujitvinu123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+The Snake animation will be connected with GitHub Actions.
 -->
+
+💻 LeetCode Intelligence
+
+<p align="center">
+  <a href="https://leetcode.com/u/sujitvinu123/">
+    <img src="https://leetcard.jacoblin.cool/sujitvinu123?theme=dark&font=Baloo&ext=heatmap" alt="Sujitvinu's LeetCode statistics"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/sujitvinu123/">
+    <strong>View LeetCode Profile →</strong>
+  </a>
+</p>
+
+⌨️ Coding Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sujitvinu123&hide_border=true&area=true" alt="GitHub activity graph"/>
+</p>
+
+<!--
+WakaTime integration can be added later if you want actual editor/coding-time data.
+-->
+
+🎯 Current Mission
+
+<table>
+<tr>
+<td>
+
+📌 Building
+
+AERO TWIN
+
+AI + Digital Twin + Real-Time Telemetry + 3D Visualization
+
+</td>
+<td>
+
+🧩 Improving
+
+Data Structures & Algorithms
+
+Java • Queues • DP • Problem Solving
+
+</td>
+</tr>
+<tr>
+<td>
+
+🤖 Exploring
+
+AI Engineering
+
+ML • Computer Vision • Intelligent Systems
+
+</td>
+<td>
+
+🌐 Developing
+
+Full Stack Systems
+
+React • FastAPI • PostgreSQL • WebSockets
+
+</td>
+</tr>
+</table>
+
+📚 Learning Roadmap
+
+                    SOFTWARE ENGINEERING
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+       DSA              SYSTEMS             AI/ML
+        │                  │                  │
+     Java              Backend             Models
+     Queues            APIs                 Vision
+     DP                Databases            Inference
+     Graphs            WebSockets           Deployment
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           ▼
+                    REAL APPLICATIONS
+                           │
+                           ▼
+                    BUILD • TEST • SHIP
+
+🏆 Engineering Interests
+
+<p align="center">
+
+Artificial Intelligence  
+Machine Learning  
+Computer Vision
+
+Full Stack Development  
+Digital Twins  
+Real-Time Systems
+
+3D Web  
+Data Visualization  
+IoT
+
+</p>
+
+📈 Developer Journey
+
+2024 ───────────────► B.Tech IT
+                         │
+2025 ───────────────► Full Stack
+                         │
+                     AI / ML
+                         │
+                 Computer Vision
+                         │
+2026 ───────────────► Advanced DSA
+                         │
+                   Digital Twins
+                         │
+                  Real-Time Systems
+                         │
+                         ▼
+                    AI ENGINEERING
+
+🧪 Engineering Philosophy
+
+Don't just build a feature. Understand the system behind it.
+
+LEARN
+  ↓
+UNDERSTAND
+  ↓
+DESIGN
+  ↓
+BUILD
+  ↓
+TEST
+  ↓
+DEPLOY
+  ↓
+ITERATE
+
+📫 Connect
+
+<p align="center">
+  <a href="https://github.com/sujitvinu123">
+    <img src="https://img.shields.io/badge/GitHub-sujitvinu123-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/sujitvinu123/">
+    <img src="https://img.shields.io/badge/LeetCode-sujitvinu123-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+</p>
+
+<p align="center">
+  <strong>⚡ BUILD • LEARN • EXPERIMENT • SHIP</strong>
+</p>
+
+<p align="center">
+  <sub>Profile continuously evolving.</sub>
+</p>
