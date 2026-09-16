@@ -28,7 +28,7 @@
 
 <p align="center">
   <img
-    src="./assets/terminal-profile.svg"
+    src="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/main/assets/terminal-profile.svg"
     width="100%"
     alt="Sujitvinu R R - Animated Developer Profile"
   />
