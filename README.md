@@ -22,13 +22,11 @@
   <img src="https://komarev.com/ghpvc/?username=sujitvinu123&style=flat-square&color=blueviolet" alt="Profile views"/>
 </p>
 
-<!-- ================= SYSTEM PROFILE ================= -->
-
 <h2>⚡ SYSTEM PROFILE</h2>
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/main/assets/terminal-profile.svg"
+    src="https://raw.githubusercontent.com/sujitvinu123/sujitvinu123/main/assests/terminal-profile.svg"
     width="100%"
     alt="Sujitvinu R R - Animated Developer Profile"
   />
