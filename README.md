@@ -216,24 +216,26 @@ Engineering Tools
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&theme=github_dark&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&hide_border=true&rank_icon=github&theme=tokyonight"
+    height="180"
     alt="GitHub Statistics"
-    width="48%"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&theme=github_dark&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&hide_border=true&theme=tokyonight"
+    height="180"
     alt="Top Programming Languages"
-    width="48%"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=sujitvinu123&theme=github-dark-blue&hide_border=true"
-    alt="GitHub Contribution Streak"
-    width="70%"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=sujitvinu123&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
   />
 </p>
+
+---
+
 # 🐍 Contribution Intelligence
 
 <p align="center">
