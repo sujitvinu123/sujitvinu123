@@ -265,7 +265,7 @@ Engineering Tools
 
 <p align="center">
   <img
-    src="./assets/coding-activity.svg"
+    src="./assests/coding-activity.svg"
     width="100%"
     alt="Sujitvinu R R - Coding Activity Dashboard"
   />
