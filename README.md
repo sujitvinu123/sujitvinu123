@@ -223,15 +223,24 @@ Engineering Tools
   <img src="https://streak-stats.demolab.com?user=sujitvinu123&hide_border=true" alt="GitHub contribution streak"/>
 </p>
 
-🐍 Contribution Intelligence
+# 🐍 Contribution Intelligence
 
 <p align="center">
-  <img src="./assets/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake"/>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/sujitvinu123/YOUR-REPOSITORY/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/sujitvinu123/YOUR-REPOSITORY/output/github-snake.svg"
+    />
+    <img
+      alt="GitHub contribution snake"
+      src="https://raw.githubusercontent.com/sujitvinu123/YOUR-REPOSITORY/output/github-snake.svg"
+    />
+  </picture>
 </p>
-
-<!--
-The Snake animation will be connected with GitHub Actions.
--->
 
 💻 LeetCode Intelligence
 
