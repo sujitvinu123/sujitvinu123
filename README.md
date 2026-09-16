@@ -242,20 +242,25 @@ Engineering Tools
     />
   </picture>
 </p>
-💻 LeetCode Intelligence
+# 💻 LeetCode Intelligence
 
 <p align="center">
   <a href="https://leetcode.com/u/sujitvinu123/">
-    <img src="https://leetcard.jacoblin.cool/sujitvinu123?theme=dark&font=Baloo&ext=heatmap" alt="Sujitvinu's LeetCode statistics"/>
+    <img
+      src="https://leetcard.jacoblin.cool/sujitvinu123?theme=dark&font=baloo&ext=heatmap"
+      alt="Sujitvinu R R LeetCode Stats"
+      width="700"
+    />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/u/sujitvinu123/">
-    <strong>View LeetCode Profile →</strong>
-  </a>
-</p>
 
+  <a href="https://leetcode.com/u/sujitvinu123/">
+    <img src="https://img.shields.io/badge/LeetCode-sujitvinu123-orange?style=for-the-badge&logo=leetcode" />
+  </a>
+
+</p>
 ⌨️ Coding Activity
 
 <p align="center">
