@@ -212,17 +212,34 @@ Engineering Tools
                          │  INTELLIGENT UI     │
                          └─────────────────────┘
 
-📊 GitHub Intelligence
+# 📊 GitHub Intelligence
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" height="180" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&hide_border=true&langs_count=8" height="180" alt="Top languages"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=sujitvinu123&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&theme=github_dark"
+    height="180"
+    alt="GitHub Statistics"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujitvinu123&layout=compact&hide_border=true&langs_count=8&theme=github_dark"
+    height="180"
+    alt="Top Programming Languages"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=sujitvinu123&hide_border=true" alt="GitHub contribution streak"/>
+  <img
+    src="https://streak-stats.demolab.com?user=sujitvinu123&theme=github-dark-blue&hide_border=true"
+    alt="GitHub Contribution Streak"
+  />
 </p>
-
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=sujitvinu123&theme=github-compact&hide_border=true"
+    alt="GitHub Activity Graph"
+    width="100%"
+  />
+</p>
 # 🐍 Contribution Intelligence
 
 <p align="center">
